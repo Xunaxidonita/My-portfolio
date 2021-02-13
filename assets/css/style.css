@@ -206,6 +206,11 @@ section h2 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.nametag a {
+  display: block;
+  text-decoration: none;
+}
+
 .project h5,
 .project h4 {
   color: white;
@@ -263,7 +268,7 @@ section h2 {
 }
 
 /* MEDIA QUERY FOR HOVER ON LAPTOP AND DESKTOP SCREENS  */
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 769px) {
   .project {
     opacity: 70%;
   }
