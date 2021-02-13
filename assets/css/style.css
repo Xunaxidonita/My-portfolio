@@ -1,3 +1,4 @@
+/* General style*/
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +10,8 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   background-color: rgb(250, 252, 243);
 }
+
+/* Navigation bar*/
 
 header {
   background-color: rgb(146, 17, 29);
@@ -61,6 +64,8 @@ section h2 {
   padding-top: 25px;
 }
 
+/* Hero design*/
+
 .hero {
   margin: 0;
   padding: 0;
@@ -86,6 +91,8 @@ section h2 {
   margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+/* Main content */
 
 .title {
   padding-right: 20px;
@@ -151,6 +158,8 @@ section h2 {
   padding-top: 35px;
 }
 
+/* Access to repositories */
+
 #projects {
   background-color: goldenrod;
 }
@@ -170,12 +179,16 @@ section h2 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* Special first project*/
+
 .first {
   width: 670px;
   height: 260px;
   margin: 0 auto 35px auto;
   background-position: top;
 }
+
+/* Repositories display */
 
 .regular {
   width: 320px;
@@ -215,6 +228,8 @@ section h2 {
   font-weight: lighter;
 }
 
+/* Repository-images */
+
 #Surf {
   background-image: url("../images/surf.jpg");
 }
@@ -245,4 +260,83 @@ section h2 {
 
 #pastel {
   background-image: url("../images/pastel.png");
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  .title {
+    padding: 0 auto;
+    display: inline;
+  }
+
+  .title img {
+    margin: 20px;
+  }
+
+  header h1 {
+    font-size: 42px;
+  }
+
+  header a {
+    font-size: 22px;
+  }
+
+  section h2 {
+    text-align: center;
+  }
+
+  .content {
+    padding: 30px 0;
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .content {
+    width: 680px;
+  }
+
+  .contact-bar {
+    width: 75%;
+    font-size: 22px;
+    align-self: center;
+    margin: 0 auto 0 auto;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .hero {
+    height: 200px;
+  }
+
+  .hero h2 {
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+
+  .bio {
+    margin-top: 0;
+  }
+
+  .content {
+    width: 85%;
+  }
+
+  .first {
+    width: 94%;
+    height: 90%;
+  }
+
+  .regular {
+    width: 215px;
+    height: 100px;
+  }
+
+  .contact-bar li {
+    align-self: center;
+  }
 }
