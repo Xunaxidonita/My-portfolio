@@ -262,6 +262,16 @@ section h2 {
   background-image: url("../images/pastel.png");
 }
 
+/* MEDIA QUERY FOR HOVER ON LAPTOP AND DESKTOP SCREENS  */
+@media screen and (min-width: 980px) {
+  .project {
+    opacity: 70%;
+  }
+  .project:hover {
+    opacity: 100%;
+  }
+}
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   .title {
