@@ -235,16 +235,18 @@ section h2 {
 
 /* Repository-images */
 
-#Surf {
-  background-image: url("../images/surf.jpg");
+#word-search {
+  background-image: url("../images/word-search_bg.png");
+  background-position: top;
 }
 
 #LED-Wall {
   background-image: url("../images/LED.png");
 }
 
-#Calculator {
-  background-image: url("../images/calc.jpg");
+#Code-quiz {
+  background-image: url("../images/code-quiz.png");
+  background-position: top;
 }
 
 #run-buddy {
@@ -263,8 +265,9 @@ section h2 {
   background-image: url("../images/pass-gen.jpg");
 }
 
-#pastel {
-  background-image: url("../images/pastel.png");
+#scheduler {
+  background-image: url("../images/scheduler.png");
+  background-position: top;
 }
 
 /* MEDIA QUERY FOR HOVER ON LAPTOP AND DESKTOP SCREENS  */
