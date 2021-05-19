@@ -270,6 +270,11 @@ section h2 {
   background-position: top;
 }
 
+#wtDinner {
+  background-image: url("../images/WFDinner.png");
+  background-position: top;
+}
+
 /* MEDIA QUERY FOR HOVER ON LAPTOP AND DESKTOP SCREENS  */
 @media screen and (min-width: 769px) {
   .project {
